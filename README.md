@@ -1,4 +1,5 @@
-![image](https://github.com/Sayyid01/ReviewMaker/assets/42909243/f9a2a9ed-95a9-413d-84a8-59d750aa067c)
+![image](https://github.com/Sayyid01/ReviewMaker/assets/42909243/326c6b17-945a-49fa-bd1c-ea7af204dbf7)
+
 <br>
 # Review Maker
 Got a business review from a messaging app but it looks messy. There is Review Maker for you, create a good review display and put it anywhere
