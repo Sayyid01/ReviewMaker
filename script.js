@@ -1,13 +1,3 @@
-// function generateTestimoni(form) {
-    // let username = form.nama.value;
-    // let testimoni = form.testimoni.value;
-    // let inisial = username[0].toUpperCase();
-
-    // document.getElementById('initial').innerHTML = inisial;
-    // document.getElementById('uname').innerHTML = inisial + username.slice(1);
-    // document.getElementById('testimoniText').innerHTML = testimoni;
-// }
-
 $(document).ready(function () {
     const form = document.querySelector("#testimoniInput");
     form.addEventListener('submit', (event)=>{
