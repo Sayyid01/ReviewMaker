@@ -7,4 +7,4 @@ Got a business review from a messaging app but it looks messy. There is Review M
 - Nothing, this is the first version, what do you expect?
 
 ## Future plan
-- Add more styles to the preview, such as LinkedIn style, Facebook style, and Twitter style.
+- Add more review styles, such as LinkedIn style, Facebook style, and Twitter style.
