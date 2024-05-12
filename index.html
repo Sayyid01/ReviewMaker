@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js">
+    </script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📜</text></svg>">
+    <title>Testimoni Maker</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; margin-top: 24px;">Review Maker v.0.1</h1>
+    <form action="#" id="testimoniInput">
+        <div>
+            <label for="nama">Insert reviewer name:</label> <br>
+            <input name="nama" type="text" style="width: 400px; height: 30px;" required>
+        </div>
+        <br>
+        <div>
+            <label for="testimoni">Insert the review: </label> <br>
+            <textarea name="testimoni" style="width: 600px; height: 200px;" required></textarea>
+        </div>
+        <!-- <input type="button" value="Generate" onclick="generateTestimoni(this.form)"> -->
+        <input type="submit" value="Generate" class="button">
+        <input type="reset" value="Reset" class="button">
+    </form>
+    <br>
+    <br>
+    <ul class="list">
+        <li>
+            <div class="container" id="container">
+                <div class="user-infos">
+                    <div class="avatar">
+                        <div class="picture" id="inisial">A</div>
+                        <p id="uname">Arida</p>
+                    </div>
+                </div>
+                <p class="main-text" id="testimoniText">Mr Naufal bisa mengajar anak saya umur 10 tahun dengan cukup
+                    jelas dan
+                    menyenangkan. Anak saya sampai bisa bikin program game dan quiz sendiri. Anak saya betah belajar dgn
+                    mr Naufal, skrg sudah 2 tahun berjalan. </p>
+            </div>
+        </li>
+    </ul>
+    <div style="margin-left: 24px;">
+        <p>Choose text align: </p>
+        <button id="left">Left</button>
+        <button id="center">Center</button>
+        <button id="right">Right</button>
+        <button id="justify">Justify</button>
+    </div>
+    <br>
+    <div style="margin-left: 24px;">
+        <p>Convert to Image (Preview first then click download): </p>
+        <div style="float: left;">
+            <button id="btn-Preview-Image">Preview</button>
+            <a id="btn-Convert-Html2Image" href="#">Download</a>
+        </div>
+    </div>
+    <br>
+    <div id="previewImage"></div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
