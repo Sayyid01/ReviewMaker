@@ -2,7 +2,8 @@
 
 
 # Review Maker
-Got a business review from a messaging app but it looks messy. There is Review Maker for you, create a good review display and put it anywhere
+Got a business review from a messaging app but it looks messy. There is Review Maker for you, create a good review display and put it anywhere!<br>
+<a href="https://sayyid01.github.io/ReviewMaker/">Try it now!</a>
 
 ## Change log
 - Nothing, this is the first version, what do you expect?
